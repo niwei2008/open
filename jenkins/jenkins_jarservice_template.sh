@@ -42,7 +42,7 @@ User=admin
 PIDFile=/var/run/$companyname/$pidname.pid
 ExecStart=$servicedir/$pidname-start.sh
 ExecReload=
-ExecStop=$servicedir/$pidname-jar-stop.sh
+ExecStop=$servicedir/$pidname-stop.sh
 PrivateTmp=true
 
 [Install]
