@@ -33,7 +33,7 @@ EOF
 (
 cat <<EOF
 [Unit]
-Description=$pidname service
+Description=$pidname service, logfie position: $logdir/$pidname.log
 After=cloud-init.service
 
 [Service]
