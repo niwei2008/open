@@ -13,7 +13,7 @@ cat <<EOF
 
 sudo mkdir -p /var/run/$companyname
 sudo chown -R admin:admin /var/run/yodoo
-nohup java -jar $jarfullname > $logdir/$pidname.log 2>&1 &
+nohup java -jar /opt/$jarfullname > $logdir/$pidname.log 2>&1 &
 echo \$! > /var/run/$companyname/$pidname.pid
 
 EOF
