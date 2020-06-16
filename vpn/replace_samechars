@@ -1,5 +1,5 @@
 #!/bin/bash
-#replase all '111-111-1111','222-222-2222'... with '***-***-****' in the files under the current destination_dir and sub-directory
+#replase all '111-111-1111','222-222-2222'... with '***-***-****' in the files under the destination_dir and its sub-directories
 
 replace_dir(){
     for file in `ls -a $1`
