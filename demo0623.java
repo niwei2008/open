@@ -2,8 +2,10 @@ public class demo0623 {
 
     public static void main(String[] args) {
         int input[]={1,3,7,9,3,3,5,6,7,3};
+        int input2[]={3,33,7,9,3,3,5,6,7,3};
 
         test(input, 3);
+        test(input2, 3);
         test(input, 7);
     }
 
