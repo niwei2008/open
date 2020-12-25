@@ -17,3 +17,9 @@ sess=tf.compat.v1.Session() //https://blog.csdn.net/sinat_36502563/article/detai
 print(sess.run(hello))
 ```
 
+check version
+```
+import tensorflow as tf
+tf.__version__
+tf.__path__
+```
