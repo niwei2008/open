@@ -1,3 +1,4 @@
+#### conda update
 conda -V
 
 conda update -n base conda
@@ -10,14 +11,14 @@ conda -V
 
 conda update --all
 
-
+#### face_recognition install
 pip install cmake
 
 conda deactivate
 
-conda create -y -n facer python=3.6
+conda create -y -n face python=3.6
 
-conda activate facer
+conda activate face
 
 
 conda install -c conda-forge opencv
@@ -27,7 +28,7 @@ pip3 install cmake
 pip3 install face_recognition
 
 
-### pip fastest repo
+#### pip fastest repo
 
 cd ~
 
