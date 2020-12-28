@@ -27,6 +27,9 @@ pip3 install cmake
 
 pip3 install face_recognition
 
+##### conda remove env
+
+conda remove -n facer --all
 
 #### pip fastest repo
 
