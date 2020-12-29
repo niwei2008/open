@@ -11,9 +11,11 @@ pip install tensorflow -i http://pypi.douban.com/simple --trusted-host=pypi.doub
 source activate tensorflow
 ```
 import tensorflow as tf
-// tf.compat.v1.disable_eager_execution() //https://zhuanlan.zhihu.com/p/277569990?utm_source=wechat_session
+# tf.compat.v1.disable_eager_execution() 
+# https://zhuanlan.zhihu.com/p/277569990?utm_source=wechat_session
 hello=tf.constant("hello tensorflow")
-sess=tf.compat.v1.Session() //https://blog.csdn.net/sinat_36502563/article/details/102302392
+sess=tf.compat.v1.Session() 
+# https://blog.csdn.net/sinat_36502563/article/details/102302392
 print(sess.run(hello))
 ```
 
