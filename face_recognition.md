@@ -28,6 +28,7 @@ pip3 install cmake
 pip3 install face_recognition
 
 ##### conda remove env
+conda info --envs
 
 conda remove -n facer --all
 
